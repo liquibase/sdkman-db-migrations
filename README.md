@@ -1,6 +1,6 @@
 # SDKMAN Database Migrations
 
-[![Build Status](https://travis-ci.org/sdkman/sdkman-db-migrations.svg?branch=master)](https://travis-ci.org/sdkman/sdkman-db-migrations)
+[![Build Status](https://travis-ci.org/sdkman/sdkman-db-migrations.svg?branch=main)](https://travis-ci.org/sdkman/sdkman-db-migrations)
 [![Slack](https://slack.sdkman.io/badge.svg)](https://slack.sdkman.io)
 
 This enables the users of SDKMAN to contribute new Installation Candidates and related Versions to be served by the API.
@@ -62,7 +62,7 @@ When serving up a simple universal zip binary, we always set the `platform` fiel
 
 ## Workflow
 
-Migration scripts can be found under [changelogs](https://github.com/sdkman/sdkman-db-migrations/tree/master/src/main/scala/io/sdkman/changelogs) and are divided by candidate. Various helper functions have been provided at package scope to perform simple tasks such as adding a Version / Candidate or setting a new Default version.
+Migration scripts can be found under [changelogs](https://github.com/sdkman/sdkman-db-migrations/tree/main/src/main/scala/io/sdkman/changelogs) and are divided by candidate. Various helper functions have been provided at package scope to perform simple tasks such as adding a Version / Candidate or setting a new Default version.
 
 #### Adding a new Candidate migration change log
 
